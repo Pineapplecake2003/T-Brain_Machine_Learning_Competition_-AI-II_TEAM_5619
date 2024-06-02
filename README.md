@@ -32,7 +32,7 @@ After installation ,in this project root directory terminal, type
 ```
 jupyter notebook
 ```
-![Ipynb][link0]
+![Ipynb](./images/jupyter.jpg)
 
 2. Use VScode  
 Install Python and Jupyter extension in your Vscode  
