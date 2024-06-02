@@ -21,7 +21,7 @@
 |/Inference.ipynb|Jupyter notebook source code to inference model after training.|
 |/Check_Fmeasure.ipynb|Jupyter notebook source code to check F-score in ```training_dataset``` after training.|
 
-## Run:
+## Before Run:
 * Make sure your environment support Python3.9.19 or above, Pytorch2.1.2 or above and Cuda 12.1 or above which can use GPU to calculate.
 * Download this project to your environment.
 * Create empty directories `/log/`, `/model/` and `/result/`.
@@ -67,8 +67,9 @@ Then you can run .ipynb file in VScode
 ![TverskyLoss](./images/alpha_and_beta_in_TverskyLoss.png)
 
 ## Useage
-* Make sure there are empty directories `model`, `log` and `result`.
-* Before Run any file, make sure you are already downloaded `Dataset.zip` and `PrivateDataset.zip` and Unzip it.
+* Make sure there are empty directories `/model/`, `/log/` and `/result/`.
+* If you want use my Strongest model, download it from [Strongest_model.pth](https://drive.google.com/file/d/1kPrNtFWuDS1bq-hxK6VCbTn6Egh47R_F/view?usp=sharing) to `/model/` (optional).
+* Before Run any file, make sure you are already downloaded [Dataset](https://drive.google.com/file/d/1UoapNsosdGx4X2nO9FrdaqElFoc8BnC0/view?usp=sharing) and [PrivateDataset](https://drive.google.com/file/d/1lNh7ewL8dOc_2gOlL6azcWLePfHlmxME/view?usp=sharing) and Unzip it.
 * Run `Train.ipynb` to train model, you can change hyper parameter.
 * Run `Check_Fmeasure.ipynb` to check F-score in traininng datast.
 * Run `Inference.ipynb` to inference the model you trained before.
