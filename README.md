@@ -24,7 +24,10 @@
 ## Run:
 * Make sure your environment support Python3.9.19 or above, Pytorch2.1.2 or above and Cuda 12.1 or above which can use GPU to calculate.
 * Download this project to your environment.
+* Download Dataset.zip and PrivateDataset.zip from [Dataset](https://drive.google.com/file/d/1UoapNsosdGx4X2nO9FrdaqElFoc8BnC0/view?usp=sharing) and [PrivateDataset](https://drive.google.com/file/d/1lNh7ewL8dOc_2gOlL6azcWLePfHlmxME/view?usp=sharing)
 * Unzip Dataset.zip and PrivateDataset.zip to this project root.
+* Unzip Dataset.zip and PrivateDataset.zip to this project root.
+* Download `Strongest_model.pth` from [Strongest_model.pth](https://drive.google.com/file/d/1kPrNtFWuDS1bq-hxK6VCbTn6Egh47R_F/view?usp=sharing) to `/model/`
 * To open Jupyter notebook
 1. Use notebook package, type 
 ```
