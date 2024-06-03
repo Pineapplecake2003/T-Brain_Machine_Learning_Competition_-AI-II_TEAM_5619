@@ -25,7 +25,7 @@
 
 * Make sure your environment supports Python 3.9.19 or above, PyTorch 2.1.2 or above, and CUDA 12.1 or above for GPU computation.
 * Download this project to your environment.
-* Create empty directories: `/log/`, `/model/`, and `/result/`.
+* Create empty directories: `/log/`, `/model/`, `/result/` and `/temp/`.
 * Download `Dataset.zip` and `PrivateDataset.zip` from [Dataset](https://drive.google.com/file/d/1UoapNsosdGx4X2nO9FrdaqElFoc8BnC0/view?usp=sharing) and [PrivateDataset](https://drive.google.com/file/d/1lNh7ewL8dOc_2gOlL6azcWLePfHlmxME/view?usp=sharing).
 * Unzip `Dataset.zip` and `PrivateDataset.zip` to the root of this project.
 * (Optional) Download `Strongest_model.pth` from [Strongest_model.pth](https://drive.google.com/file/d/1kPrNtFWuDS1bq-hxK6VCbTn6Egh47R_F/view?usp=sharing) to the `/model/` directory.
@@ -69,7 +69,7 @@
 
 ## Usage
 
-* Make sure there are empty directories: `/model/`, `/log/`, and `/result/`.
+* Make sure there are empty directories: `/model/`, `/log/`, `/result/` and `/temp/`.
 * (Optional) If you want to use my strongest model, download it from [Strongest_model.pth](https://drive.google.com/file/d/1kPrNtFWuDS1bq-hxK6VCbTn6Egh47R_F/view?usp=sharing) to `/model/`.
 * Before running any file, ensure you have already downloaded the [Dataset](https://drive.google.com/file/d/1UoapNsosdGx4X2nO9FrdaqElFoc8BnC0/view?usp=sharing) and [PrivateDataset](https://drive.google.com/file/d/1lNh7ewL8dOc_2gOlL6azcWLePfHlmxME/view?usp=sharing) and unzipped them.
 * Run `Train.ipynb` to train the model. You can change the hyperparameters.
