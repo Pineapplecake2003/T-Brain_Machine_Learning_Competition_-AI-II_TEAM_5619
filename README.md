@@ -75,7 +75,7 @@
 * Run `Train.ipynb` to train the model. You can change the hyperparameters.
 * Run `Check_Fmeasure.ipynb` to check the F-score in the training dataset.
 * Run `Inference.ipynb` to perform inference using the trained model. After running `Inference.ipynb`, it will create `result.zip` containing the inference results.  
-* If you want to use a different model, change the file path from `"./model/best_model.pth"` to the desired model path in `Inference.ipynb` or `Check_Fneasure.ipynb`.
+* If you want to use a different model, change the file path from `"./model/best_model.pth"` to the desired model path in `Inference.ipynb` or `Check_Fmeasure.ipynb`.
   ![file path](./images/model_path.png)
 
 ## Note
