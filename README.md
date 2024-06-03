@@ -74,7 +74,7 @@
 * Before running any file, ensure you have already downloaded the [Dataset](https://drive.google.com/file/d/1UoapNsosdGx4X2nO9FrdaqElFoc8BnC0/view?usp=sharing) and [PrivateDataset](https://drive.google.com/file/d/1lNh7ewL8dOc_2gOlL6azcWLePfHlmxME/view?usp=sharing) and unzipped them.
 * Run `Train.ipynb` to train the model. You can change the hyperparameters.
 * Run `Check_Fmeasure.ipynb` to check the F-score in the training dataset.
-* Run `Inference.ipynb` to perform inference using the trained model. After running `Inference.ipynb`, it will create `result.zip` containing the inference results.  
+* Run `Inference.ipynb` to perform inference using the trained model. After running `Inference.ipynb`, if your environment is Linux, it will generate a `result.zip` file containing the inference results. Otherwise, the result images will be stored in the `/result/` directory.  
 * If you want to use a different model, change the file path from `"./model/best_model.pth"` to the desired model path in `Inference.ipynb` or `Check_Fmeasure.ipynb`.
   ![file path](./images/model_path.png)
 
