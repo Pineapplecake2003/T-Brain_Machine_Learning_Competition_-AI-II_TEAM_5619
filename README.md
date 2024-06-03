@@ -1,4 +1,4 @@
-# T-Brain Machine Learning Competition建構無人機於自然環境偵察時所需之導航資訊 競賽 II － 導航資料生成競賽 TEAM_5619 source code
+# 競賽報告與程式碼 TEAM_5619 建構無人機於自然環境偵察時所需之導航資訊競賽 II － 導航資料生成 競賽
 
 ## File Hierarchy:
 
