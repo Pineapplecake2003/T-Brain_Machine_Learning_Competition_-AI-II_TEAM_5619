@@ -7,7 +7,7 @@
 | /images/ | Store images for `README.md` |
 | /Dataset/Training_dataset/img/ | Store images for training. |
 | /Dataset/Training_dataset/label_img/ | Store ground truth images for training. |
-| /Dataset/Training_dataset/img/ | Store images for public testing. |
+| /Dataset/Testing_dataset/ | Store images for public testing. |
 | /PrivateDataset/Testing_dataset/ | Store images for private testing. |
 | /log/ | Store information from previous training. |
 | /result/ | Store the result of the last inference. |
@@ -88,5 +88,5 @@ and renamed.
 | ---- | ---- |
 | /35_Competition 2_Training dataset_V3.zip/Training_dataset/img | /Dataset/Training_dataset/img/ |
 | /35_Competition 2_Training dataset_V3.zip/Training_dataset/label_img | /Dataset/Training_dataset/label_img/ |
-| /35_Competition 2_public testing dataset.zip/img | /Dataset/Testing_dataset/img/ |
-| /35_Competition 2_Private Test Dataset.zip/35_Competition 2_Private Test Dataset/img | /PrivateDataset/Testing_dataset/img/ |
+| /35_Competition 2_public testing dataset.zip/img | /Dataset/Testing_dataset/ |
+| /35_Competition 2_Private Test Dataset.zip/35_Competition 2_Private Test Dataset/img | /PrivateDataset/Testing_dataset/ |
